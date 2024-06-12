@@ -1,0 +1,4 @@
+-r ./Intention_classify/requirements.txt
+-r ./RAG_pipeline/requirements.txt
+dashscope
+faiss-cpu

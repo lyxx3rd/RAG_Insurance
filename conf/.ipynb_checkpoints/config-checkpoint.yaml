@@ -1,0 +1,27 @@
+log_dir: ./log/
+
+retrieve_model:
+  model_name_or_path: "bm25"
+  batch_size: 256
+  pooling: cls
+  l2_norm: True
+  k: 1
+  device: cuda:0
+  threads: 32
+  ef_search:
+
+reranker:
+  model_name_or_path: 
+  batch_size: 64
+  cutoff_layers: 28
+  device: 0
+
+corpus:
+  language: zn
+  index_dir: ./indexes/Insurance/QA_list/
+  corpus_path: 
+
+query:
+  max_length: 256
+  prefix:
+  query_to_pos_path:
