@@ -1,0 +1,16 @@
+2024-05-25 13:26:02 - [3268] - INFO - server.py - 18 --- Server Start
+2024-05-25 13:26:02 - [3268] - INFO - server.py - 19 --- 'model_name_or_path: bm25'
+2024-05-25 13:26:02 - [3268] - INFO - server.py - 20 --- 'index_dir: ./indexes/Insurance/'
+2024-05-25 13:26:02 - [3268] - INFO - server.py - 21 --- 'pooling: cls'
+2024-05-25 13:26:02 - [3268] - INFO - server.py - 22 --- 'l2_norm: True'
+2024-05-25 13:26:02 - [3268] - INFO - server.py - 23 --- 'query_prefix: None'
+2024-05-25 13:26:02 - [3268] - INFO - server.py - 24 --- 'ef_search: None'
+2024-05-25 13:26:02 - [3268] - INFO - _internal.py - 96 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7000
+ * Running on http://172.17.0.6:7000
+2024-05-25 13:26:02 - [3268] - INFO - _internal.py - 96 --- [33mPress CTRL+C to quit[0m
+2024-05-25 13:26:10 - [3268] - INFO - server.py - 81 --- Get 1 queries: ['产品发生变更调整的时候，福利变化/提升和昂贵医院的调整会影响到我的保单吗？']
+2024-05-25 13:26:10 - [3268] - INFO - server.py - 86 --- average inference time 0.128s/query
+2024-05-25 13:26:10 - [3268] - INFO - server.py - 87 --- total inference time 0.128s for 1 queries
+2024-05-25 13:26:10 - [3268] - INFO - _internal.py - 96 --- 127.0.0.1 - - [25/May/2024 13:26:10] "POST /retrieve HTTP/1.1" 200 -

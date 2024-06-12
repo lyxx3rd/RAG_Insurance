@@ -1,0 +1,16 @@
+2024-05-24 03:06:17 - [1770] - INFO - server.py - 18 --- Server Start
+2024-05-24 03:06:17 - [1770] - INFO - server.py - 19 --- 'model_name_or_path: bm25'
+2024-05-24 03:06:17 - [1770] - INFO - server.py - 20 --- 'index_dir: ./indexes/data_to_encode/'
+2024-05-24 03:06:17 - [1770] - INFO - server.py - 21 --- 'pooling: cls'
+2024-05-24 03:06:17 - [1770] - INFO - server.py - 22 --- 'l2_norm: True'
+2024-05-24 03:06:17 - [1770] - INFO - server.py - 23 --- 'query_prefix: None'
+2024-05-24 03:06:17 - [1770] - INFO - server.py - 24 --- 'ef_search: None'
+2024-05-24 03:06:17 - [1770] - INFO - _internal.py - 96 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7000
+ * Running on http://172.17.0.5:7000
+2024-05-24 03:06:17 - [1770] - INFO - _internal.py - 96 --- [33mPress CTRL+C to quit[0m
+2024-05-24 03:09:28 - [1770] - INFO - server.py - 81 --- Get 1 queries: ['法律问题']
+2024-05-24 03:09:28 - [1770] - INFO - server.py - 86 --- average inference time 0.0904s/query
+2024-05-24 03:09:28 - [1770] - INFO - server.py - 87 --- total inference time 0.0904s for 1 queries
+2024-05-24 03:09:28 - [1770] - INFO - _internal.py - 96 --- 127.0.0.1 - - [24/May/2024 03:09:28] "POST /retrieve HTTP/1.1" 200 -
