@@ -2,7 +2,7 @@ from .utils_bm25 import creat_retriever
 import dashscope
 from http import HTTPStatus
 
-dashscope.api_key="sk-632f5cf28f0a43719096801cd7c2e61a"
+dashscope.api_key=
 def call_with_messages_qa(question,q,a):
     messages = "客户的问题是：\n" + question + "\n根据此问题我找到的参考问题是：\n" + q + "\n参考问题对应的答案是：\n" + a 
     messages = [{'role': 'system', 'content': '你是一个有用的助手'},

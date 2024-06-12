@@ -1,6 +1,6 @@
 import dashscope
 from http import HTTPStatus
-dashscope.api_key="sk-632f5cf28f0a43719096801cd7c2e61a"
+dashscope.api_key=
 
 def call_with_decomposition(question,item1,item2,item3):
     messages = "客户的问题是：\n" + question + "\n根据问题所匹配的条例为1：\n" + item1 + "\n根据问题所匹配的条例为2：\n" + item2 + "\n根据问题所匹配的条例为3：\n" + item3
